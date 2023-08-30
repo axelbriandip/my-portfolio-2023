@@ -1,9 +1,13 @@
 import React from 'react';
 
+import './css/main.css';
+
+import Navbar from './components/Navbar';
+
 function App() {
   return (
     <div className="App">
-      {/* block code */}
+      <Navbar/>
     </div>
   )
 }
