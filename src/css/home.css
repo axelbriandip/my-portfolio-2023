@@ -6,12 +6,11 @@
 
 /* IMAGE */
 .container-home .img-home{
-    /* background-color: blueviolet; */
     text-align: center;
 }
 
 .container-home .img-home img {
-    height: 14rem;
+    height: 12rem;
     animation: fly 3s alternate-reverse infinite;
     position: relative;
     bottom: -1rem;
@@ -28,10 +27,6 @@
 }
 
 /* TEXT */
-.container-home .text-home{
-    /* background-color: chartreuse; */
-}
-
 .container-home .text-home i {
     font-size: 3.2rem;
 }
@@ -41,7 +36,7 @@
 }
 
 .container-home .text-home p {
-    margin: 1rem 0 2rem;
+    margin: 1rem 0;
 }
 
 .container-home .text-home a {
@@ -71,7 +66,9 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    /* code */
+    .container-home{
+        padding: 3rem 10%;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */

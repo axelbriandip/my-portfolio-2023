@@ -2,6 +2,7 @@
 @import 'home.css';
 @import 'col.css';
 @import 'buttons.css';
+@import 'bkg-animated.css';
 
 :root {
     --black: #1a1e29;
