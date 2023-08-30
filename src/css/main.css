@@ -1,4 +1,7 @@
 @import 'navbar.css';
+@import 'home.css';
+@import 'col.css';
+@import 'buttons.css';
 
 :root {
     --black: #1a1e29;
@@ -13,6 +16,10 @@
     box-sizing: border-box;
     font-family: 'Roboto Condensed', sans-serif;
     color: var(--black);
+}
+
+p {
+    text-align: justify;
 }
 
 body {

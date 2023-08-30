@@ -1,0 +1,80 @@
+.container-home{
+    /* background-color: tan; */
+    margin-top: 4.5rem;
+    padding: 3rem 5%;
+}
+
+/* IMAGE */
+.container-home .img-home{
+    /* background-color: blueviolet; */
+    text-align: center;
+}
+
+.container-home .img-home img {
+    height: 14rem;
+    animation: fly 3s alternate-reverse infinite;
+    position: relative;
+    bottom: -1rem;
+}
+
+@keyframes fly {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-15%);
+    }
+}
+
+/* TEXT */
+.container-home .text-home{
+    /* background-color: chartreuse; */
+}
+
+.container-home .text-home i {
+    font-size: 3.2rem;
+}
+
+.container-home .text-home h1 {
+    font-size: 2.6rem;
+}
+
+.container-home .text-home p {
+    margin: 1rem 0 2rem;
+}
+
+.container-home .text-home a {
+    cursor: pointer;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /* code */
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    /* code */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .container-home .text-home p {
+        padding-right: 30%;
+    }
+
+    .container-home .img-home{
+        text-align: right;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    /* code */
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    /* code */
+}

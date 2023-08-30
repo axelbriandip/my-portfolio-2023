@@ -1,0 +1,46 @@
+/*** ESTILOS BOTÓN GROW SKEW ***/
+.btn-contact {
+    background: var(--blue);
+    /* color de fondo */
+    color: var(--white);
+    /* color de fuente */
+    border-bottom: 3px solid var(--green);
+    /* tamaño y color de borde */
+    padding: .5rem 1rem;
+    /* redondear bordes */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+
+    width: 10rem;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 1.5rem;
+}
+
+.btn-contact:hover {
+    color: var(--blue);
+    /* color de fuente hover */
+}
+
+.btn-contact::after {
+    content: "";
+    background: var(--green);
+    /* color de fondo hover */
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.3s ease;
+}
+
+.btn-contact:hover::after {
+    transition: all 0.3s ease-out;
+    transform: skewX(-45deg) scale(1, 1);
+}
