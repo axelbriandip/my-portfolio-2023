@@ -7,6 +7,7 @@ import './css/main.css';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import BackgroundPage from './components/BackgroundPage';
+import About_me from './components/About_me';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <BackgroundPage/>
       <Navbar/>
       <Home/>
+      <About_me/>
     </div>
   )
 }

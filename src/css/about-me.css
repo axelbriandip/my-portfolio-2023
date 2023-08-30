@@ -1,0 +1,44 @@
+.container-aboutme{
+    /* background-color: tan; */
+    padding: 1.5rem 5%;
+}
+
+.container-aboutme .img-aboutme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-aboutme .img-aboutme img {
+    height: 12rem;
+    margin-top: 2rem;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /* code */
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    /* code */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .container-aboutme .img-aboutme img {
+        margin-top: 0;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .container-aboutme{
+        padding: 3rem 10%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    /* code */
+}

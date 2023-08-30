@@ -3,6 +3,7 @@
 @import 'col.css';
 @import 'buttons.css';
 @import 'bkg-animated.css';
+@import 'about-me.css';
 
 :root {
     --black: #1a1e29;
@@ -34,4 +35,13 @@ body {
 
 html {
     scroll-behavior: smooth;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+.underline {
+    text-decoration: underline wavy 2px var(--green);
+    font-weight: 700;
 }
