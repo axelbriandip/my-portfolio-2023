@@ -9,6 +9,9 @@ import Home from './components/Home';
 import BackgroundPage from './components/BackgroundPage';
 import About_me from './components/About_me';
 import Abilities from './components/Abilities';
+import Project from './components/Projects';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -18,6 +21,9 @@ function App() {
       <Home/>
       <About_me/>
       <Abilities/>
+      <Project/>
+      <Contact/>
+      <Footer/>
     </div>
   )
 }
