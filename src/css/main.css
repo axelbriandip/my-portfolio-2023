@@ -5,12 +5,15 @@
 @import 'bkg-animated.css';
 @import 'about-me.css';
 @import 'abilities.css';
+@import 'projects.css';
 
 :root {
     --black: #1a1e29;
+    --grey: #333333;
     --blue: #132d49;
     --green: #01c38e;
     --white: #efefef;
+    --white-full: #ffffff;
 }
 
 * {

@@ -1,0 +1,109 @@
+.container-projects {
+    padding: 1.5rem 5%;
+}
+
+.container-projects .text-projects {
+    margin-bottom: 2rem;
+}
+
+.container-projects .cards-projects {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.container-projects .card-project {
+    width: 100%;
+    background-color: var(--white-full);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+    transition: .2s all ease;
+}
+
+.container-projects .card-project:hover {
+    transform: translateY(-5%);
+}
+
+.container-projects .card-project .img-card {
+    background-color: #ffffff;
+    opacity: 1;
+    background-size: 11px 11px;
+    background-image: repeating-linear-gradient(45deg, #01c38e 0, #01c38e 1.1px, #ffffff 0, #ffffff 50%);
+
+    width: 100%;
+    height: 8rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-projects .card-project .img-card img {
+    height: 5rem;
+}
+
+.container-projects .card-project .text-card .title {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.container-projects .card-project .text-card .description {
+    font-size: .9rem;
+    color: var(--grey);
+}
+
+.container-projects .card-project .buttons-card {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+/* .container-projects .card-project .buttons-card a:first-child {
+    margin-right: 2rem;
+} */
+
+.container-projects .card-project .buttons-card a {
+    text-decoration: none;
+    font-weight: 700;
+    transition: .2 all;
+}
+
+.container-projects .card-project .buttons-card a:hover {
+    color: var(--green);
+}
+
+.container-projects .card-project .text-card,
+.container-projects .card-project .buttons-card {
+    padding: 1rem;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .container-projects .card-project {
+        width: 45%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .container-projects {
+        padding: 3rem 10%;
+    }
+    .container-projects .card-project {
+        width: 30%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

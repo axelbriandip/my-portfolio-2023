@@ -71,15 +71,12 @@
     scale: 0;
 }
 
-/* .card__description {
-} */
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    .card {
+    .container-abilities .container-cards .card {
         width: 45%;
     }
 }
@@ -96,7 +93,7 @@
     .container-abilities {
         padding: 3rem 10%;
     }
-    .card {
+    .container-abilities .container-cards .card {
         width: 30%;
     }
 }
