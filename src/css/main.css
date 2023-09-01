@@ -6,6 +6,7 @@
 @import 'about-me.css';
 @import 'abilities.css';
 @import 'projects.css';
+@import 'contact.css';
 
 :root {
     --black: #1a1e29;

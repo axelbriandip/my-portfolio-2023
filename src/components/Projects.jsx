@@ -11,7 +11,7 @@ const Project = () => {
     return (
         <section className="container-projects">
             <div className="text-projects col-12">
-                <h2><i class="fa-brands fa-stack-overflow"></i> | Mis proyectos</h2>
+                <h2><i class="fa-solid fa-boxes-stacked"></i> | Mis proyectos</h2>
                 <p>Estos son algunos de mis trabajos..</p>
             </div>
             <div className="cards-projects">
