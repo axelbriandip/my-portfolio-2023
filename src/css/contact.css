@@ -2,8 +2,62 @@
     padding: 1.5rem 5%;
 }
 
-.container-contact .text-contact {
-    margin-bottom: 2rem;
+.container-contact .content-contact {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container-contact .content-contact .info-contact,
+.container-contact .content-contact .message-contact {
+    width: 100%;
+}
+
+.group-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+
+.message-contact input,
+.message-contact textarea {
+    background: var(--white);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid var(--black);
+    font-size: 1rem;
+    color: #333;
+}
+
+.message-contact label {
+    color: var(--black);
+    font-weight: 700;
+}
+
+.message-contact input {
+    height: 2.5rem;
+}
+
+.message-contact textarea {
+    min-height: 8rem;
+    max-height: 8rem;
+    min-width: 100%;
+    max-width: 100%;
+    padding-top: .5rem;
+}
+
+.info-contact i {
+    width: 1.5rem;
+}
+
+.container-contact button {
+    padding: .5rem 0;
+    width: 10rem;
+    background-color: var(--blue);
+    color: var(--white);
+    border: none;
+    font-size: 1rem;
+    border-bottom: 3px solid var(--green);
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -14,10 +68,19 @@
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
+    .container-contact .content-contact {
+        gap: 2rem;
+    }
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+    .container-contact .content-contact .info-contact,
+    .container-contact .content-contact .message-contact {
+        width: 48%;
+    }
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
