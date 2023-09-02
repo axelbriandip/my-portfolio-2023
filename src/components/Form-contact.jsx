@@ -9,7 +9,7 @@ const FormContact = () => {
             </div>
             <div className="group-input">
                 <label htmlFor="">Correo</label>
-                <input type="text"  placeholder="¿Cuál es tu correo electrónico?" name="mail"/>
+                <input type="email" placeholder="¿Cuál es tu correo electrónico?" name="mail"/>
             </div>
             <div className="group-input">
                 <label htmlFor="">Mensaje</label>
@@ -22,8 +22,8 @@ const FormContact = () => {
             {/* valor por default del asunto */}
             <input type="hidden" name="_subject" value="&#128235; ¡Nuevo mensaje del portafolio!"/>
             {/* ¿A dónde va? */}
-            {/* <input type="hidden" name='_next' value='https://axelbriandip.netlify.app/'/> */}
-            <input type="hidden" name='_next' value='http://localhost:3000/'/>
+            <input type="hidden" name='_next' value='https://axelbriandip.netlify.app/'/>
+            {/* <input type="hidden" name='_next' value='http://localhost:3000/'/> */}
             {/* Sin captcha */}
             <input type="hidden" name='_captcha' value={false} />
         </form>
