@@ -5,15 +5,15 @@ const FormContact = () => {
         <form action="https://formsubmit.co/axelbriandip.rg@gmail.com" method="POST">
             <div className="group-input">
                 <label htmlFor="">Nombre</label>
-                <input type="text" placeholder="¿Cómo te llamas?" name="name" />
+                <input type="text" placeholder="¿Cómo te llamas?" name="name" required/>
             </div>
             <div className="group-input">
                 <label htmlFor="">Correo</label>
-                <input type="email" placeholder="¿Cuál es tu correo electrónico?" name="mail"/>
+                <input type="email" placeholder="¿Cuál es tu correo electrónico?" name="mail" required/>
             </div>
             <div className="group-input">
                 <label htmlFor="">Mensaje</label>
-                <textarea placeholder="¿Qué quiere decirme?" id="" cols="30" rows="10" name="message"></textarea>
+                <textarea placeholder="¿Qué quiere decirme?" id="" cols="30" rows="10" name="message" required></textarea>
             </div>
             <button class="btn btn-contact" type="submit">¡Enviar mensaje!</button>
 
