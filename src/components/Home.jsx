@@ -15,7 +15,7 @@ const Home = () => {
                 <p className="col-12">
                     Soy un programador junior entusiasta y comprometido. Estoy emocionado por adquirir experiencia y aprender de cada proyecto. ¡Trabajemos juntos para crear soluciones innovadoras!
                 </p>
-                <a href="#goto-contact" class="btn btn-contact col-12">Contáctame</a>
+                <a href="#contact" class="btn btn-contact col-12">Contáctame</a>
             </div>
         </section>
     );
