@@ -13,7 +13,7 @@ const FormContact = () => {
             </div>
             <div className="group-input">
                 <label htmlFor="">Mensaje</label>
-                <textarea placeholder="¿Qué tiene para dedcirme?" id="" cols="30" rows="10" name="message"></textarea>
+                <textarea placeholder="¿Qué quiere decirme?" id="" cols="30" rows="10" name="message"></textarea>
             </div>
             <button class="btn btn-contact" type="submit">¡Enviar mensaje!</button>
 
