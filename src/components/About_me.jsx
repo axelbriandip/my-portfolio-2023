@@ -5,7 +5,7 @@ import photo_aboutme from '../img/undraw_programmer4.svg';
 
 const About_me = () => {
     return (
-        <section className="container-aboutme row">
+        <section className="container-aboutme row" id="aboutme">
             <h2 className="col-12"><i class="fa-solid fa-person"></i> | Sobre mi</h2>
             <div className="content-aboutme col-12 row">
                 <div className="text-aboutme col-12 col-md-6 col-lg-7">

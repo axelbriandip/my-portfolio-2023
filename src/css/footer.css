@@ -1,0 +1,35 @@
+footer {
+    padding: 1.5rem 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+footer p {
+    font-size: 1rem;
+}
+footer p a {
+    font-weight: 700;
+    text-decoration: none;
+    transition: .2s all;
+}
+footer p a:hover {
+    text-decoration: var(--green) wavy underline;
+    color: var(--blue);
+}
+footer .items-contact {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+footer .items-contact i {
+    color: var(--black);
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: .2s all;
+}
+footer .items-contact i:hover {
+    color: var(--green);
+    scale: 1.3;
+}

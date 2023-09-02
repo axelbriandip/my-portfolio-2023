@@ -5,7 +5,7 @@ import programmer_home from '../img/undraw_programmer1.svg';
 
 const Home = () => {
     return (
-        <section className="container-home">
+        <section className="container-home" id="home">
             <div className="img-home">
                 <img src={programmer_home} alt="programmer home"/>
             </div>

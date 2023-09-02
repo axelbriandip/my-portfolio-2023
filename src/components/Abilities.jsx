@@ -3,7 +3,7 @@ import CardAbitily from "./CardAbilities";
 
 const Abilities = () => {
     return (
-        <section className="container-abilities row">
+        <section className="container-abilities row" id="abilities">
             <div className="text-abilities col-12">
                 <h2><i class="fa-brands fa-stack-overflow"></i> | Mis Habilidades</h2>
                 <p>A continuación, te muestro parte de mis habilidades y herramientas que domino..</p>

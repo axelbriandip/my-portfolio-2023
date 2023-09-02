@@ -9,7 +9,7 @@ import rym from '../img/rym.png';
 
 const Project = () => {
     return (
-        <section className="container-projects">
+        <section className="container-projects" id="projects">
             <div className="text-projects col-12">
                 <h2><i class="fa-solid fa-boxes-stacked"></i> | Mis proyectos</h2>
                 <p>Estos son algunos de mis trabajos..</p>

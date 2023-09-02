@@ -3,7 +3,7 @@ import FormContact from "./Form-contact";
 
 const Contact = () => {
     return (
-        <section className="container-contact row" id='goto-contact'>
+        <section className="container-contact row" id='contact'>
             <h2 className="hover-line col-12"><i class="fa-solid fa-message"></i> Contacto</h2>
             <div className="content-contact col-12">
                 <div className="info-contact">

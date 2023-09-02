@@ -7,6 +7,7 @@
 @import 'abilities.css';
 @import 'projects.css';
 @import 'contact.css';
+@import 'footer.css';
 
 :root {
     --black: #1a1e29;
