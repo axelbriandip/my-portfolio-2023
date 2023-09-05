@@ -12,32 +12,32 @@ const Abilities = () => {
                 <CardAbitily
                     icon="fa-brands fa-react"
                     name="React js"
-                    description="lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
+                    description="Es una biblioteca de JavaScript para construir interfaces de usuario interactivas y reutilizables mediante componentes. Es eficiente y facilita la creación de aplicaciones complejas."
                 />
                 <CardAbitily
                     icon="fa-brands fa-node-js"
                     name="Node js"
-                    description="lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
+                    description="Es conocido por su eficiencia y escalabilidad, y se utiliza ampliamente para desarrollar aplicaciones web en tiempo real, servidores API y herramientas de línea de comandos."
                 />
                 <CardAbitily
                     icon="fa-brands fa-python"
                     name="Python Django"
-                    description="lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
+                    description="Es conocido por su enfoque en la reutilización de código y su énfasis en la seguridad. Es ampliamente utilizado para construir sitios web y aplicaciones robustas."
                 />
                 <CardAbitily
                     icon="fa-brands fa-css3-alt"
                     name="CSS"
-                    description="lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
+                    description="Permite separar el contenido de la página web de su presentación visual, lo que facilita la creación de diseños personalizados y estilos para diferentes dispositivos y tamaños de pantalla."
                 />
                 <CardAbitily
                     icon="fa-brands fa-js"
                     name="Javascript"
-                    description="lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
+                    description="Es utilizado principalmente para el desarrollo de aplicaciones web y la creación de interacciones dinámicas en sitios web."
                 />
                 <CardAbitily
                     icon="fa-brands fa-git-alt"
                     name="GIT"
-                    description="lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
+                    description="Es un sistema de control de versiones distribuido que permite a los desarrolladores rastrear y gestionar los cambios en el código fuente de un proyecto."
                 />
             </div>
         </section>
